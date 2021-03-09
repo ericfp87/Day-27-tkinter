@@ -3,7 +3,7 @@ from tkinter import *
 window = Tk()
 window.title("My first GUI program")
 window.minsize(width=500, height=300)
-
+window.config(padx=100, pady=200)
 #Label
 
 my_label = Label(text="I Am a Label", font=("Arial", 24, "bold"))
